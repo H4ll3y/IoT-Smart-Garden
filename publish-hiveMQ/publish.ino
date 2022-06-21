@@ -15,11 +15,12 @@
 #include <bits/stdc++.h>
 
 // Thông tin về wifi
-char ssid[] = "IoT_Class";
-char pass[] = "77683946";
+char ssid[] = "";
+char pass[] = "";
 
 char auth[] = BLYNK_AUTH_TOKEN;
-#define mqtt_server "172.16.74.146"
+// #define mqtt_server "172.16.74.146"
+#define mqtt_server "broker.hivemq.com"
 const uint16_t mqtt_port = 1883;
 
 #define DHTTYPE DHT11
