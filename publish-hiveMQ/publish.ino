@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLZppvL-jE"
-#define BLYNK_DEVICE_NAME "IoTSmartGarden"
-#define BLYNK_AUTH_TOKEN "8h8obC52kOaUuk0eOOBCNT6rm9yD58BB"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_DEVICE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #define APP_DEBUG
@@ -19,7 +19,6 @@ char ssid[] = "";
 char pass[] = "";
 
 char auth[] = BLYNK_AUTH_TOKEN;
-// #define mqtt_server "172.16.74.146"
 #define mqtt_server "broker.hivemq.com"
 const uint16_t mqtt_port = 1883;
 
